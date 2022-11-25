@@ -1,23 +1,23 @@
 # Calculating Discount Rate using Takagi and Sugeno’s Approach
 <h2><b>Problem Statement:</b></h2>
-Finding how much discount should a shopping website offer on a product on the basis of factors like <b>demand</b>, <b>availability</b> and <b>date of manufacturing</b> of the product and using fuzzy logic and Takagi and Sugeno’s Approach, given that the maximum discount that can be offered is 60%.
+Finding how much discount should a shopping website offer on a product based on factors like <b>demand</b>, <b>availability</b>, and <b>date of manufacturing</b> of the product and using fuzzy logic and Takagi and Sugeno’s Approach, given that the maximum discount that can be offered is 60%.
 
 <h2><b>Introduction:</b></h2>
 Shopping websites like Myntra have algorithms to decide how much discount should they offer on a given product. The algorithms consider several factors, a few of them being:
 <ol>
-<li>demand of the product in the market - 
+<li>The demand for the product in the market - 
 <ul>
-<li>higher the demand, lower will be the discount offered for the product and vice versa.</li>
+<li>higher the demand, the lower will be the discount offered for the product and vice versa.</li>
 </ul>
 </li>
 <li>stock available with the seller - 
 <ul>
-<li>if the stock available with the seller is high, the seller should offer higher discount and vice versa.</li>
+<li>if the stock available with the seller is high, the seller should offer a higher discount and vice versa.</li>
 </ul>
 </li>
 <li>lead time in the warehouse -
 <ul>
-<li>Consider a new product in the market then the seller would not offer much discount to it even if its demand is quite low or its stock available with the seller is abundant. This is because, newer product may take some time to grasp the market and for the consumer to get to know about it.</li>
+<li>Consider a new product in the market then the seller would not offer much discount even if its demand is quite low or its stock available with the seller is abundant. This is because, newer products may take some time to grasp the market and for the consumer to get to know about them.</li>
 </ul>
 </li>
 </ol>
